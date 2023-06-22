@@ -76,7 +76,6 @@ def no():
         files.next_step()
         return redirect(url_for('main'))
     except FileNotFoundError:
-        # print('Ð”Ð¾Ð±Ð°Ð²Ñ‚Ðµ ÐµÑ‰Ðµ Ñ„Ð¾Ñ‚Ð¾Ðº')
         return redirect(url_for('empty'))
 
 if __name__ == "__main__":
